@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded",(e)=>{
     }
     console.log(user.nom)
     for (let index in user) {
-        let valeur = user.{index}
+        let valeur = index
         console.let("${index} : ${valeur}")
     }
 })
